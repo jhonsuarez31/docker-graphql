@@ -32,6 +32,8 @@ jobs:
     - name : Push Docker Image
       run : | 
         docker push jhonsuarez31/docker_graphql:0.0.2 
+        docker push jhonsuarez31/docker_graphql:latest
+        
 
 
     #- name: Build the Docker image
